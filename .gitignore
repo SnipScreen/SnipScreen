@@ -1,0 +1,89 @@
+# --- System Files ---
+
+# macOS specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Linux backup files
+*~
+
+# --- Node.js / Dependencies ---
+# Dependencies installed via npm, yarn, or pnpm
+node_modules/
+jspm_packages/
+web_modules/
+
+# Optional npm cache directory
+.npm
+
+# Package manager lock files (Uncomment if you *don't* want to commit lock files, though committing them is usually recommended)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Build & Packaging Artifacts ---
+# Common build output directories (adjust if your build process uses different names)
+dist/
+build/
+out/
+public/ # If used as a build target
+
+# Packaged Chrome Extension files
+*.zip
+*.crx
+
+# --- IDE / Editor Config ---
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# --- Caching ---
+.eslintcache
+.stylelintcache
+.prettiercache
+.parcel-cache
+
+# --- Environment Variables ---
+# Never commit .env files containing secrets!
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# --- Testing / Coverage ---
+coverage/
+.nyc_output/
+
+# --- Other ---
+# Add any other project-specific files or directories you don't want to track

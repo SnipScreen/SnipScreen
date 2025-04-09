@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SnipScreen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass-nav { background-color: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+    </style>
+    </head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+
+     <header class="sticky top-0 z-50 glass-nav border-b border-gray-200">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-2">
+             <div class="flex flex-wrap justify-between items-center">
+                 <a href="index.html" class="flex items-center space-x-2 flex-shrink-0 mr-6" title="SnipScreen Home">
+                    <img src="assets/logo.png" alt="SnipScreen Logo" class="h-8 w-auto">
+                    <span class="text-2xl font-bold text-emerald-600">SnipScreen</span>
+                 </a>
+                 <div class="flex flex-col items-end md:flex-row md:items-center md:space-x-1 w-full md:w-auto mt-3 md:mt-0">
+                    <a href="index.html#features" class="text-gray-600 hover:text-emerald-600 w-full text-right md:w-auto md:text-left px-3 py-1 md:py-2 rounded-md text-sm font-medium">Features</a>
+                    <a href="privacy.html" class="text-gray-600 hover:text-emerald-600 w-full text-right md:w-auto md:text-left px-3 py-1 md:py-2 rounded-md text-sm font-medium">Privacy</a>
+                    <a href="https://github.com/SnipScreen/SnipScreen-Tracker/issues" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-emerald-600 w-full text-right md:w-auto md:text-left px-3 py-1 md:py-2 rounded-md text-sm font-medium">Feedback/Support</a>
+                    <a href="index.html" class="text-gray-600 hover:text-emerald-600 w-full text-right md:w-auto md:text-left px-3 py-1 md:py-2 rounded-md text-sm font-medium md:hidden">Home</a>
+                 </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <article class="bg-white p-6 sm:p-8 md:p-12 rounded-lg shadow-lg max-w-4xl mx-auto">
+             <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center border-b pb-4">Privacy Policy</h1>
+             <div id="privacy-policy-content" class="policy-content mt-6">
+
+                <p class="mb-5 leading-relaxed text-gray-700 text-base"><strong>Effective Date:</strong> April 9, 2025</p>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Introduction</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">This policy explains how the SnipScreen Chrome Extension ("Extension", "we", "us", "our") handles information when you use it. We respect your privacy.</p>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Core Principle: Local Processing Only</h2>
+                <ul class="list-disc pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1">SnipScreen works entirely on your computer within the Chrome browser.</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900">No data is sent to external servers.</strong> Your screenshots and edits stay local.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Information Handled (Locally)</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">SnipScreen interacts with the following data, keeping it on your machine:</p>
+                <ul class="list-disc pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1"><strong class="font-medium text-gray-900">Screenshot Data:</strong> Images captured are stored <strong class="font-medium text-gray-900">temporarily</strong> in browser storage (<code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">chrome.storage.local</code>) only while the editor is open.</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900">User Settings:</strong> Your preferred save folder name is kept in Chrome's sync storage (<code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">chrome.storage.sync</code>) for convenience.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">How Information Is Used</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">We use this local data strictly for these Extension functions:</p>
+                <ul class="list-disc pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1">Displaying the captured screenshot in the editor tab.</li>
+                    <li class="mb-1">Enabling editing tools (crop, annotate, etc.) to modify the displayed image.</li>
+                    <li class="mb-1">Executing the "Copy to Clipboard" and "Save as PNG" actions based on your clicks.</li>
+                    <li class="mb-1">Applying your saved setting for the default filename/path when saving.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Data Storage & Retention</h2>
+                <ul class="list-disc pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1">Screenshot data is <strong class="font-medium text-gray-900">temporary</strong> and automatically deleted when you close the SnipScreen editor tab.</li>
+                    <li class="mb-1">Settings data remains until you change it, remove the extension, or clear Chrome's synced data.</li>
+                    <li class="mb-1">We rely on Google Chrome's security mechanisms for protecting this locally stored information.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Data Sharing: Strictly None</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">We emphasize that SnipScreen <strong class="font-medium text-gray-900">does not share any of your data</strong> with us or any third parties.</p>
+                <ul class="list-disc pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1">The "Copy" feature interacts only with <strong class="font-medium text-gray-900">your computer's clipboard</strong>, initiated by you.</li>
+                    <li class="mb-1">The "Save" feature interacts only with <strong class="font-medium text-gray-900">your computer's file system</strong> via the browser's download API, initiated by you.</li>
+                </ul>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Required Permissions & Why</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">SnipScreen requests the minimum permissions necessary:</p>
+                <ol class="list-decimal pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1"><strong class="font-medium text-gray-900"><code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">activeTab</code>:</strong> Allows capturing the content of the tab you are currently viewing *only when you click the extension icon*.</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900"><code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">storage</code>:</strong> Necessary for saving your settings (sync) and temporarily holding the screenshot image during editing (local).</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900"><code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">downloads</code>:</strong> Required for the "Save" button to initiate the file download to your computer.</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900"><code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">tabs</code>:</strong> Needed to open the dedicated editor interface in a new browser tab after capture.</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900"><code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">notifications</code>:</strong> Used to display brief confirmation or error messages (e.g., "Image Copied!", "Save Failed").</li>
+                    <li class="mb-1"><strong class="font-medium text-gray-900"><code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">clipboardWrite</code>:</strong> Required specifically to allow the "Copy" button to place the captured/edited *image* data onto your clipboard.</li>
+                </ol>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Your Choices & Control</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">You maintain control over the Extension and its data:</p>
+                <ol class="list-decimal pl-5 mb-5 text-gray-700 space-y-2">
+                    <li class="mb-1">You can clear data associated with extensions, including settings stored by SnipScreen, using the "Clear Browse data" options within Chrome's settings.</li>
+                    <li class="mb-1">You can disable or completely remove the SnipScreen extension at any time from Chrome's extensions page (<code class="bg-gray-100 text-sm px-1.5 py-0.5 rounded font-mono border border-gray-200 text-gray-800">chrome://extensions</code>).</li>
+                </ol>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Children's Privacy</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">SnipScreen is not directed at or intended for use by children under the age of 13 (or equivalent minimum age depending on jurisdiction).</p>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Policy Updates</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">We may update this Privacy Policy. If changes occur, we will update the "Effective Date" at the top of this document. We encourage you to review this page periodically.</p>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Contact & Feedback</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">For questions regarding this policy, or to report issues or provide feedback about the SnipScreen extension, please use our public GitHub issue tracker:</p>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base"><a href="https://github.com/SnipScreen/SnipScreen-Tracker/issues" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:text-emerald-700 hover:underline"><strong class="font-medium text-gray-900">SnipScreen Issue Tracker on GitHub</strong></a></p>
+                <p class="text-sm text-gray-600 mb-5 leading-relaxed">(Note: This requires a free GitHub account and issues filed are typically public.)</p>
+
+                <h2 class="text-xl font-semibold mt-8 mb-4 pb-2 border-b border-gray-300 text-gray-800">Disclaimer</h2>
+                <p class="mb-5 leading-relaxed text-gray-700 text-base">The SnipScreen extension is provided "as is", without warranty of any kind, express or implied.</p>
+
+             </div>
+        </article>
+    </main>
+
+     <footer class="bg-gray-800 text-gray-400 py-8 mt-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+             <div class="mb-4 space-x-4">
+                 <a href="index.html#features" class="hover:text-white">Features</a>
+                 <a href="privacy.html" class="hover:text-white">Privacy Policy</a>
+                 <a href="https://github.com/SnipScreen/SnipScreen-Tracker/issues" target="_blank" rel="noopener noreferrer" class="hover:text-white">Feedback/Support</a>
+            </div>
+            <p>© <span id="footer-year"></span> SnipScreen. All rights reserved.</p>
+        </div>
+    </footer>
+
+     <script>
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+     </script>
+
+</body>
+</html>
